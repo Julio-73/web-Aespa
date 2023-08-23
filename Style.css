@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  -color: #0d5b73;
+  -color-2-: #f4efef;
+  -color-3-: #000104;
+}
+
+body {
+  background-color: #000104;
+  color: #f4efef;
+}
+
+/*-------- Menu ------ */
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+.contenedor a {
+  text-decoration: none;
+}
+
+.tellme {
+  padding-top: 2rem;
+}
+
+.tellme a {
+  padding: 1rem;
+  color: #0d5b73;
+  font-weight: 900;
+  transition: 3s;
+}
+
+.tellme a:hover {
+  color: #f4efef;
+  transition: 1s;
+}
+
+.tiktak {
+  text-decoration: none;
+  padding-top: 2rem;
+}
+
+.tiktak a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #0d5b73;
+  font-weight: 900;
+  transition: 3s;
+}
+
+.tiktak a:hover {
+  color: #f4efef;
+  transition: 1s;
+}
+
+/* ----- bosy aespa ------*/
+
+.bosy {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+}
+
+.bosy img {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+/* ----- boton listem now ------*/
+
+.buton {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  text-align: center;
+}
+
+button {
+  width: 300px;
+  font-size: 2rem;
+  border: 1px white solid;
+  background-color: #060606;
+  color: #f4efef;
+}
+button a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #f4efef;
+}
+
+/* ----- Music imagen ------*/
+
+h1 {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+.conteiner {
+}
+
+.conteiner img {
+}
+
+section img {
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- musica  --*/
+
+.conteiner section {
+  gap: 1rem;
+}
+
+/* --- musica p ----*/
+.world {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.girl {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.savage {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* --- musica boton --*/
+
+.img-1 {
+  text-align: center;
+}
+
+.img-2 {
+  text-align: center;
+}
+
+.img-3 {
+  text-align: center;
+}
+
+/* ---- Merch ---*/
+
+.Merch {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.container-merch {
+}
+
+.container-merch section {
+  gap: 1rem;
+}
+
+/* ---- Merch  p ---*/
+
+.albun-3 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.albun-4 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.albun-5 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* ----VIDEO---*/
+
+.video-1 {
+  text-align: center;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
